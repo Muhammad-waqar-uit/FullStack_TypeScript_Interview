@@ -3,12 +3,12 @@
 ## Table of Contents
 - [Javascript](#javascript)
 - [Typescript](#typescript)
-- [React/NextJs](#react/nextjs)
-- [HTML/CSS](#html/css)
+- [React/NextJs](#reactnextjs)
+- [HTML/CSS](#htmlcss)
 - [Tailwind CSS](#tailwindcss)
 - [T3 Stack](#t3stack)
 - [Database](#database)
-- [Node/Express](#node/express)
+- [Node/Express](#nodeexpress)
 - [Git](#git)
 
 

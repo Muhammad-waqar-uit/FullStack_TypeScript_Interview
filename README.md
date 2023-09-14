@@ -23,6 +23,7 @@
 ## React/NextJs
 1. What is the key difference between React and Next?
 2. When would you choose to use React for a project, and when would you opt for Next.js? Provide specific use cases.
+3. What is Cors and why we need it?
 
 ## HTML/CSS
 1. Explain the purpose and usage of the HTML <meta> tag.

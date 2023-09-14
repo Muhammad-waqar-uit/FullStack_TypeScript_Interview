@@ -3,7 +3,7 @@
 ## Table of Contents
 - [Javascript](#javascript)
 - [Typescript](#typescript)
-- [React/NextJs](#react/nextJs)
+- [React/NextJs](#react/nextjs)
 - [HTML/CSS](#html/css)
 - [Tailwind CSS](#tailwindcss)
 - [T3 Stack](#t3stack)

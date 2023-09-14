@@ -1,7 +1,7 @@
 # FullStack Developer Interview
 
 ## Table of Contents
-- [Javascript/Typescript](#javascript/typescript)
+- [Javascript](#javascript)
 - [Typescript](#typescript)
 - [React/NextJs](#react/nextJs)
 - [HTML/CSS](#html/css)

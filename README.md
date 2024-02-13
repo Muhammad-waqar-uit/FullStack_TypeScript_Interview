@@ -33,7 +33,7 @@
 
 ## Tailwind CSS
 1. What are the main advantages of using Tailwind CSS for styling web applications?
-2. 
+2. You need to add a colour change effect on a button inside a card component but the button should change even colour when the card is hovered over, How would you do that? 
 
 ## T3 Stack
 1. What is t3 stack?

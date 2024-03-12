@@ -16,6 +16,7 @@
 ## Javascript
 1. Is JavaScript a single-threaded model or a multi-threaded model?
 2. Is javascript a compiled or interpreted language?
+3. What is call stack in JS?
 
 ## Typescript
 1. What is the main advantage of using TypeScript over JavaScript in web development?
@@ -24,7 +25,7 @@
 ## React/NextJs
 1. What is the key difference between React and Next?
 2. When would you choose to use React for a project, and when would you opt for Next.js? Provide specific use cases.
-3. What is Cors and why we need it?
+3. What is Cors and why do we need it?
 
 ## HTML/CSS
 1. Explain the purpose and usage of the HTML <meta> tag.
@@ -42,9 +43,11 @@
 ## Database
 1. Explain the difference between SQL and NoSQL databases
 2. Provide an examples of when to use each type
+3. What is normalization? And why is it important
 
 ## Node/Express
-1.
+1. Why was promise converted to async/await? What did it lack and what was fulfilled with the addition?
+2. What is the purpose of promise.all()
 
 ## Git
 1. What is Git?
@@ -54,4 +57,7 @@
 5. Explain the role of different types of branches in a typical Git development workflow.
 
 ## Miscellaneous
-1. 
+1. Create a function that consoles a value n (user Input) number of times without using built-in function or looping
+2. What are web sockets? And what are they used for?
+3. what is the difference between a normal REST api and a websocket
+4. How would you reverse the order of an array without using a built-in functions  

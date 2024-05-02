@@ -52,6 +52,24 @@
 
       console.log("End");
       ```
+     - Output
+     - ```Javascript
+          Start
+          Hello!
+          End
+      ```
+      - Asynchronous Tasks: When an asynchronous task is encountered, like fetching data from an API, it's handed off to the browser or Node.js runtime environment to                handle. Meanwhile, the JavaScript engine continues executing the remaining synchronous tasks.
+      ```Javascript
+      console.log("Start");
+
+setTimeout(function() {
+    console.log("Inside setTimeout");
+}, 0);
+
+console.log("End");
+```
+<img width="896" alt="image" src="https://github.com/Muhammad-waqar-uit/FullStack_TypeScript_Interview/assets/57596726/b40fed54-810f-42c1-a814-eae3b15f3392">
+
 ## Typescript
 1. What is the main advantage of using TypeScript over JavaScript in web development?
 2. Explain the key differences between a type and an interface in TypeScript.

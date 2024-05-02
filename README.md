@@ -52,14 +52,14 @@
 
       console.log("End");
       ```
-     - Output
-     - ```Javascript
+   - Output
+   - ```Javascript
           Start
           Hello!
           End
       ```
-      - Asynchronous Tasks: When an asynchronous task is encountered, like fetching data from an API, it's handed off to the browser or Node.js runtime environment to                handle. Meanwhile, the JavaScript engine continues executing the remaining synchronous tasks.
-      - ```Javascript
+   - Asynchronous Tasks: When an asynchronous task is encountered, like fetching data from an API, it's handed off to the browser or Node.js runtime environment to                handle. Meanwhile, the JavaScript engine continues executing the remaining synchronous tasks.
+   - ```Javascript
          console.log("Start");
 
          setTimeout(function() {
@@ -68,16 +68,16 @@
          
          console.log("End");
          ```
-      - Output
-      - ```Javascript
+   - Output
+   - ```Javascript
             Start
             End
             Inside setTimeout
       ```
-      - Callback Queue: Once the asynchronous task is complete, a callback function associated with it is placed into the callback queue.
-      - Event Loop: The event loop constantly checks if the execution stack is empty. If it is, it looks into the callback queue for any pending tasks.
-      - Execution of Callbacks: If there's a callback function in the queue, it's pushed onto the execution stack and executed.
-      - ```Javascript
+   - Callback Queue: Once the asynchronous task is complete, a callback function associated with it is placed into the callback queue.
+   - Event Loop: The event loop constantly checks if the execution stack is empty. If it is, it looks into the callback queue for any pending tasks.
+   - Execution of Callbacks: If there's a callback function in the queue, it's pushed onto the execution stack and executed.
+   - ```Javascript
               console.log("Start");
          
                setTimeout(function() {
@@ -89,16 +89,16 @@
                setTimeout(function() {
                  console.log("Second setTimeout");
                }, 0);
-         ```
-        - Output
-        - ```Javascript
+        ```
+   - Output
+   - ```Javascript
           Start
          End
          Inside setTimeout
          Second setTimeout
         ```
-        - Continuation: This process repeats, with the event loop continually checking for tasks in the callback queue and executing them when the execution stack is empty.
-        - That's the basic flow of the event loop in JavaScript. It ensures that your code runs smoothly, even when dealing with asynchronous operations.
+   - Continuation: This process repeats, with the event loop continually checking for tasks in the callback queue and executing them when the execution stack is empty.
+   - That's the basic flow of the event loop in JavaScript. It ensures that your code runs smoothly, even when dealing with asynchronous operations.
 
 
 ## Typescript

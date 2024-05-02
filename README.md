@@ -15,8 +15,16 @@
 
 ## Javascript
 1. Is JavaScript a single-threaded model or a multi-threaded model?
-2. Is javascript a compiled or interpreted language?
-3. What is call stack in JS?
+   - JavaScript is primarily single-threaded. This means that it has one call stack and one memory heap, and code execution is sequential. This single-threaded nature is         often referred to as the "event loop" model, where asynchronous operations are handled through mechanisms like callbacks, promises, and async/await.
+
+- However, JavaScript can also leverage multi-threading through Web Workers. Web Workers allow developers to run scripts in background threads, separate from the main     
+  execution thread. This enables concurrent execution and parallel processing, but it's important to note that these background threads cannot directly access the DOM or modify the UI, thus preserving the single-threaded nature of the main execution context.
+
+##### Simple explanation 
+- Imagine JavaScript as a worker handling tasks. Normally, it's like one person doing one task at a time, just focused on that. But sometimes, with Web Workers, it's like that person asking some buddies to help with other tasks while they continue with their main job. So, while the main worker stays focused, the helpers tackle additional tasks, making things more efficient overall.
+  
+3. Is javascript a compiled or interpreted language?
+4. What is call stack in JS?
 
 ## Typescript
 1. What is the main advantage of using TypeScript over JavaScript in web development?

@@ -24,8 +24,34 @@
    - Imagine JavaScript as a worker handling tasks. Normally, it's like one person doing one task at a time, just focused on that. But sometimes, with Web Workers, it's like    that person asking some buddies to help with other tasks while they continue with their main job. So, while the main worker stays focused, the helpers tackle additional      tasks, making things more efficient overall.
   
 3. Is javascript a compiled or interpreted language?
-4. What is call stack in JS?
+   - JavaScript is primarily an interpreted language. This means that JavaScript code is executed line by line by an interpreter (like a translator) at runtime, without the       need for a separate compilation step before execution.
 
+   - However, modern JavaScript engines, like V8 (used in Chrome and Node.js), employ sophisticated optimization techniques, including Just-In-Time (JIT) compilation, which       translates JavaScript code into machine code at runtime for better performance. This combination of interpretation and compilation is often referred to as "just-in-time      compilation" or "dynamic compilation." So while JavaScript is typically interpreted, there are elements of compilation involved in its execution.
+
+   #### Simple Explanation
+   - JavaScript is like someone listening to you and doing what you say immediately, without needing to write it down first. So, you can just speak to it directly, and it          will understand and do what you want right away.
+     
+4. What is call stack in JS?
+   - The call stack in JavaScript is a data structure that keeps track of function calls in a program. When a function is called, it's added to the top of the call stack.       When the function returns, it's removed from the top of the stack. This helps the JavaScript engine keep track of the execution context and know which function is            currently being executed.
+
+5. What is Javascript EventLoop?
+   - The event loop in JavaScript is like a traffic controller. It manages the flow of code execution, making sure everything happens in the right order. When an                asynchronous task is encountered (like fetching data from a server), the event loop ensures that the main code continues running while waiting for the asynchronous task      to complete. Once the task is done, it's put back into the main flow of execution. So, the event loop keeps things moving smoothly, preventing the code from getting          stuck while waiting for something to happen.
+
+   #### Whole Event Loop Flow Execution
+   - Start: The event loop begins when your JavaScript code starts running.
+   - Execution Stack: Initially, the main script is pushed onto the execution stack. This stack holds all the functions that are currently being executed.
+   - Synchronous Execution: JavaScript executes synchronous tasks line by line, adding functions to the stack and removing them when they're done.
+   - ```Javascript
+     console.log("Start");
+
+      function greet() {
+          console.log("Hello!");
+      }
+
+      greet();
+
+      console.log("End");
+      ```
 ## Typescript
 1. What is the main advantage of using TypeScript over JavaScript in web development?
 2. Explain the key differences between a type and an interface in TypeScript.
